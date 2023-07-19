@@ -13,7 +13,7 @@ Camera calibration from rosbag file to camera matrix, distortion coefficent, rot
 
 ## Sample Chessboard
 ![IMG_6598](https://github.com/vichan7/ros-camera-calib/assets/117228381/1e17886e-89ec-46f8-af90-678717c69ad5)
-(9x6)
+(9x6 inner corners)
 
 ## Resources
 [OpenCV](https://www.geeksforgeeks.org/camera-calibration-with-python-opencv/#)
