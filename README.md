@@ -3,8 +3,8 @@ Camera calibration from rosbag file to camera matrix, distortion coefficent, rot
 
 ## Contents
 * [How To](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#how-to)  
-* [Example (using CMU MMPUG Project)](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#example)  
-* [Sample Chessboard](https://github.com/vichan7/ros-camera-calib/edit/main/README.md#sample-chessboard)  
+* [Recording Rosbag Example](https://github.com/vichan7/rosbag-camera-calib/edit/main/README.md#recording-rosbags)  
+* [Result](https://github.com/vichan7/rosbag-camera-calib/edit/main/README.md#result)  
 * [Resources](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#resources)
 
 ## How To
@@ -16,13 +16,18 @@ Camera calibration from rosbag file to camera matrix, distortion coefficent, rot
 7. Change the dimensions of the checkerboard (count the inner corners), the number of images you want to use, and the file extension of your images in `camcalib.py`
 8. Run `camcalib.py`
 
-## Example
-### Recording rosbags
+## Recording rosbags
 The checkerboard was attached to a flat, mobile surface and moved around in front of the camera to capture various orientations of the checkerboard. Here are some examples of our captured orientations.  
 <img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/61eaff56-ae23-4e24-8981-7ea271bf4e1d" width="300" height="300">
 <img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/64af1d47-82b8-47f3-97f1-3be257a770fc" width="300" height="300">
 <img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/7b91d423-8783-447d-a3a3-544e928ed029" width="250" height="300">
-### Running `camcalib.py`
+
+## Result
+The last step should produce a camera matrix, distortion coefficient, rotation vectors, and translation vectors.  
+![Screenshot from 2023-07-19 17-55-57](https://github.com/vichan7/rosbag-camera-calib/assets/100101338/8bda46f3-79bf-4746-91f4-25f8cd7c7551)
+![Screenshot from 2023-07-19 17-56-03](https://github.com/vichan7/rosbag-camera-calib/assets/100101338/168680b6-cda5-4f5f-8825-2ad8c0d37ad0)
+
+
 
 ## Sample Chessboard
 ![IMG_6598](https://github.com/vichan7/ros-camera-calib/assets/117228381/1e17886e-89ec-46f8-af90-678717c69ad5)
