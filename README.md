@@ -10,11 +10,10 @@ Camera calibration from rosbag file to camera matrix, distortion coefficent, rot
 ## How To
 1. Record rosbags of the calibration chessboard in front of your camera at various angles
 2. Add your rosbags to the repo folder
-3. Create `imgs` and `final_imgs` folders
+3. Create `imgs` folder
 4. Change file paths and bag names in `bagtopng.py`
-5. Run `bagtopng.py`
-6. Pick the images you want to use from the `imgs` folder and move them to the `final_imgs` folder
-7. Change the dimensions of the checkerboard (count the inner corners) and the file extension in `camcalib.py`
+5. Run `bagtopng.py` (fills `imgs` with pictures)
+7. Change the dimensions of the checkerboard (count the inner corners), the number of images you want to use, and the file extension of your images in `camcalib.py`
 8. Run `camcalib.py`
 
 ## Example
