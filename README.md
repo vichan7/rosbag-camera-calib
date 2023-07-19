@@ -1,4 +1,4 @@
-# ros-camera-calib
+# rosbag-camera-calib
 Camera calibration from rosbag file to camera matrix, distortion coefficent, rotation vectors, and translation vectors.
 
 ## Contents
