@@ -10,7 +10,12 @@ Camera calibration from rosbag file to camera matrix, distortion coefficent, rot
 6. Change the dimensions of the checkerboard (count the inner corners) and the file extension in `camcalib.py`
 7. Run `camcalib.py`
 
+## Sample Chessboard
+![IMG_6598](https://github.com/vichan7/ros-camera-calib/assets/117228381/1e17886e-89ec-46f8-af90-678717c69ad5)
+(9x6)
+
 ## Resources
 [OpenCV](https://www.geeksforgeeks.org/camera-calibration-with-python-opencv/#)
 
 [https://idorobotics.com/2021/03/08/extracting-ros-bag-files-to-python/](https://idorobotics.com/2021/03/08/extracting-ros-bag-files-to-python/)
+
