@@ -18,7 +18,10 @@ Camera calibration from rosbag file to camera matrix, distortion coefficent, rot
 
 ## Example
 ### Recording rosbags
-### Running `bagtopng.py`
+The checkerboard was attached to a flat, mobile surface and moved around in front of the camera to capture various orientations of the checkerboard. Here are some examples of our captured orientations.  
+<img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/61eaff56-ae23-4e24-8981-7ea271bf4e1d" width="300" height="300">
+<img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/64af1d47-82b8-47f3-97f1-3be257a770fc" width="300" height="300">
+<img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/7b91d423-8783-447d-a3a3-544e928ed029" width="250" height="300">
 ### Running `camcalib.py`
 
 ## Sample Chessboard
