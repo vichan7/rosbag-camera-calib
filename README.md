@@ -2,10 +2,10 @@
 Camera calibration from rosbag file to camera matrix, distortion coefficent, rotation vectors, and translation vectors.
 
 ## Contents
-[How To](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#how-to)  
-[Example (using CMU MMPUG Project)](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#example)  
-[Sample Chessboard](https://github.com/vichan7/ros-camera-calib/edit/main/README.md#sample-chessboard)  
-[Resources](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#resources)
+* [How To](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#how-to)  
+* [Example (using CMU MMPUG Project)](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#example)  
+* [Sample Chessboard](https://github.com/vichan7/ros-camera-calib/edit/main/README.md#sample-chessboard)  
+* [Resources](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#resources)
 
 ## How To
 1. Record rosbags of the calibration chessboard in front of your camera at various angles
