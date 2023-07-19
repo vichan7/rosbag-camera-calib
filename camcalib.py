@@ -6,7 +6,7 @@ import glob
 
 
 # Define the dimensions of checkerboard
-CHECKERBOARD = (4, 6)
+CHECKERBOARD = (9, 6)
 
 
 # stop the iteration when specified
@@ -36,9 +36,14 @@ prev_img_shape = None
 # in a given directory. Since no path is
 # specified, it will take current directory
 # jpg files alone
-images = glob.glob('final_imgs/*.png')
+images = glob.glob('imgs/*.png')
 
-for filename in images:
+img_count = 1
+img_last_index = 200 #change this
+img_increment = 4 #change this
+for filename in images[:img_last_index:img_increment]:
+	print(f"processing image {img_count}/{(int)(img_last_index/img_increment)}\n")
+	img_count += 1
 	image = cv2.imread(filename)
 	grayColor = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -69,8 +74,8 @@ for filename in images:
 										CHECKERBOARD,
 										corners2, ret)
 
-	cv2.imshow('img', image)
-	cv2.waitKey(0)
+	#cv2.imshow('img', image)
+	#cv2.waitKey(0)
 
 cv2.destroyAllWindows()
 

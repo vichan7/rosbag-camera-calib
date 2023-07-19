@@ -4,13 +4,13 @@ from cv_bridge import CvBridge
 import numpy as np
 
 
-FILENAME = 'rc3_camcalib_front'
+FILENAME = 'rc3_payload_front'
 ROOT_DIR = '/home/mmpug/cam_calib'
 BAGFILE = ROOT_DIR + '/' + FILENAME + '.bag'
 
 if __name__ == '__main__':
     bag = rosbag.Bag(BAGFILE)
-    TOPIC = '/basestation/cmu_rc3/front/image_raw'
+    TOPIC = '/cmu_rc3/camera_1/image_raw'
     image_topic = bag.read_messages(TOPIC)
     for k, b in enumerate(image_topic):
         bridge = CvBridge()
