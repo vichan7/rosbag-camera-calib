@@ -24,7 +24,7 @@ The checkerboard was attached to a flat, mobile surface and moved around in fron
 <img src="https://github.com/vichan7/rosbag-camera-calib/assets/100101338/7b91d423-8783-447d-a3a3-544e928ed029" width="150" height="200">
 
 ## Results
-The last step in [How To](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#how-to) will produce a camera matrix, distortion coefficient, rotation vectors, and translation vectors.  
+The last step in [How To](https://github.com/vichan7/rosbag-camera-calib/tree/main#how-to) will produce a camera matrix, distortion coefficient, rotation vectors, and translation vectors.  
 ![Screenshot from 2023-07-19 17-55-57](https://github.com/vichan7/rosbag-camera-calib/assets/100101338/8bda46f3-79bf-4746-91f4-25f8cd7c7551)
 ![Screenshot from 2023-07-19 17-56-03](https://github.com/vichan7/rosbag-camera-calib/assets/100101338/168680b6-cda5-4f5f-8825-2ad8c0d37ad0)
 
