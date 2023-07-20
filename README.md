@@ -3,8 +3,8 @@ Camera calibration, from rosbag file to camera matrix, distortion coefficent, ro
 
 ## Contents
 * [How To](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#how-to)  
-* [Recording rosbags](https://github.com/vichan7/rosbag-camera-calib/edit/main/README.md#recording-rosbags)  
-* [Results](https://github.com/vichan7/rosbag-camera-calib/edit/main/README.md#result)  
+* [Recording rosbags](https://github.com/vichan7/rosbag-camera-calib/blob/main/README.md#recording-rosbags)  
+* [Results](https://github.com/vichan7/rosbag-camera-calib/blob/main/README.md#result)  
 * [Resources](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#resources)
 
 ## How To
