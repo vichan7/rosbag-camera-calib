@@ -1,5 +1,5 @@
 # rosbag-camera-calib
-Camera calibration from rosbag file to camera matrix, distortion coefficent, rotation vectors, and translation vectors.
+Camera calibration, from rosbag file to camera matrix, distortion coefficent, rotation vectors, and translation vectors.
 
 ## Contents
 * [How To](https://github.com/vichan7/ros-camera-calib/blob/main/README.md#how-to)  
