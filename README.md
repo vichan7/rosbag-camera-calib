@@ -1,5 +1,5 @@
 # rosbag-camera-calib
-Camera calibration, from rosbag file to camera matrix, distortion coefficent, rotation vectors, and translation vectors. Designed for pinhole camera with radtan distortion model (works with fisheye camera). 
+Camera calibration, from rosbag file to camera matrix, distortion coefficent, rotation vectors, and translation vectors. Designed for pinhole camera with radtan distortion model (tested with fisheye camera). 
 
 Made for the MMPUG project at the CMU Biorobotics Lab.
 
